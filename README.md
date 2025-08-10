@@ -16,12 +16,16 @@ A simple and flexible **Save/Load/Delete system** for Unity projects.
 3. Done! Ready to use.
 
 ## Usage
-1. **Save System:**
-   ```SaveSystem.SetData(slotIndex);```
-2. **Load System:**
-   ```SaveSystem.GetData(slotIndex);```
-3. **Delete System:**
-   ```SaveSystem.DeleteData(slotIndex);```
+Create a script and base it on the SaveSystem class.
+
+1. **Save Slot:**
+   ```SaveSystem.SetData(DataInfo);```
+2. **Load Slot:**
+   ```var profileData = SaveSystem.GetData(slotIndex);```
+3. **Delete Slot:**
+   ```SaveSystem.DeleteSlot(slotIndex);```
+
+There is sample usage example on project files.
 
 Finally, this system is still under development, so its current state is very low-level.
 Thanks for using! =)
