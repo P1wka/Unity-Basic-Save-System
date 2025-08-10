@@ -29,3 +29,5 @@ There is sample usage example on project files.
 
 Finally, this system is still under development, so its current state is very low-level.
 Thanks for using! =)
+
+![Sample Scene](sample.png)
